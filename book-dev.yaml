@@ -1,6 +1,10 @@
+application:
+  booking:
+    fare:
+      url: http://fares/fares
 spring:
   application:
-    name: search
+    name: book
   rabbitmq:
     host: myhost
     port: 5672

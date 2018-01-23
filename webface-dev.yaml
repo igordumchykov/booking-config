@@ -1,0 +1,32 @@
+application:
+  booking:
+    fare:
+      url: http://fares/fares
+  webclient:
+    checkin:
+      create:
+        url: http://checkin/checkin/create
+    search:
+      get:
+        url: http://search-apigateway/api/search/get
+    booking:
+      create:
+        url: http://book/booking/create
+      get:
+        url: http://book/booking/get/
+security:
+  user:
+    name: guest
+    password: guest123
+spring:
+  application:
+    name: webface
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://registry:8761/eureka/
+logging:
+  level:
+    com:
+      jdum:
+        booking: INFO

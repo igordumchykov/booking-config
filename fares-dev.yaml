@@ -1,6 +1,6 @@
 spring:
   application:
-    name: search
+    name: fares
   rabbitmq:
     host: myhost
     port: 5672
