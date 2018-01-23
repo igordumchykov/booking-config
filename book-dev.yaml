@@ -1,7 +1,3 @@
-application:
-  booking:
-    fare:
-      url: http://fares/fares
 spring:
   application:
     name: book
@@ -19,3 +15,6 @@ logging:
     com:
       jdum:
         booking: INFO
+booking:
+  fare:
+    url: http://fares/fares
