@@ -16,16 +16,16 @@ logging:
         booking: INFO
 booking:
   fare:
-    url: http://fares/fares
+    url: http://fares-service/fares
 webclient:
   checkin:
     create:
-      url: http://checkin/checkin/create
+      url: http://checkin-service/checkin/create
   search:
     get:
       url: http://search-apigateway/api/search/get
   booking:
     create:
-      url: http://book/booking/create
+      url: http://book-service/booking/create
     get:
-      url: http://book/booking/get/
+      url: http://book-service/booking/get/

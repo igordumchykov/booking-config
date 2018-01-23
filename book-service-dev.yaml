@@ -1,6 +1,6 @@
 spring:
   application:
-    name: checkin
+    name: book-service
   rabbitmq:
     host: 127.0.0.1
     port: 5672
@@ -15,3 +15,5 @@ logging:
     com:
       jdum:
         booking: INFO
+
+booking.fare.url: http://fares-service/fares

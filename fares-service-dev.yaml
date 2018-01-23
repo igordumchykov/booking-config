@@ -1,6 +1,6 @@
 spring:
   application:
-    name: search
+    name: fares-service
   rabbitmq:
     host: 127.0.0.1
     port: 5672
@@ -14,4 +14,4 @@ logging:
   level:
     com:
       jdum:
-        booking: DEBUG
+        booking: INFO
