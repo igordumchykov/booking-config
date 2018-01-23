@@ -3,3 +3,5 @@ logging:
     com:
       jdum:
         booking: INFO
+application:
+  profileName: default
