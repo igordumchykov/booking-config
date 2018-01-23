@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: search-service
+
+  rabbitmq:
+    host: myhost
+    port: 5672
+    username: guest
+    password: guest
+
+logging:
+  level:
+    com:
+      jdum:
+        booking: DEBUG
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://registry:8761/eureka/
