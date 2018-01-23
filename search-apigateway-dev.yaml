@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: search-apigateway
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://registry:8761/eureka/
+
+
+zuul:
+  routes:
+    search-apigateway:
+      serviceId: search-service
+      path: /api/**
