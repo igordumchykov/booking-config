@@ -1,6 +1,6 @@
 spring:
   application:
-    name: search-service
+    name: search
 
   rabbitmq:
     host: myhost
@@ -13,8 +13,3 @@ logging:
     com:
       jdum:
         booking: DEBUG
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://registry:8761/eureka/
