@@ -11,5 +11,5 @@ eureka:
 zuul:
   routes:
     search-apigateway:
-      serviceId: search-service
+      serviceId: search
       path: /api/**
