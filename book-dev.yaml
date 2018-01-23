@@ -15,6 +15,5 @@ logging:
     com:
       jdum:
         booking: INFO
-booking:
-  fare:
-    url: http://fares/fares
+
+booking.fare.url: http://fares/fares
