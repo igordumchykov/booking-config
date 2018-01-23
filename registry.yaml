@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: registry
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://registry:8761/eureka/
