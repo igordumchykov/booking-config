@@ -15,5 +15,3 @@ logging:
     com:
       jdum:
         booking: DEBUG
-application:
-  profileName: dev

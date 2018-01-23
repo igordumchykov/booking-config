@@ -1,0 +1,7 @@
+logging:
+  level:
+    com:
+      jdum:
+        booking: INFO
+application:
+  profileName: defaultInner
