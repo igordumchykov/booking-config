@@ -14,18 +14,20 @@ logging:
     com:
       jdum:
         booking: INFO
-booking:
-  fare:
-    url: http://fares-service/fares
-webclient:
-  checkin:
-    create:
-      url: http://checkin-service/checkin/create
-  search:
-    get:
-      url: http://search-apigateway/api/search/get
-  booking:
-    create:
-      url: http://book-service/booking/create
-    get:
-      url: http://book-service/booking/get/
+
+# can be used with RestTemplate instead of using Feign client
+#booking:
+#  fare:
+#    url: http://fares-service/fares
+#webclient:
+#  checkin:
+#    create:
+#      url: http://checkin-service/checkin/create
+#  search:
+#    get:
+#      url: http://search-apigateway/api/search/get
+#  booking:
+#    create:
+#      url: http://book-service/booking/create
+#    get:
+#      url: http://book-service/booking/get/
