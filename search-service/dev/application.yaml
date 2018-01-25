@@ -14,4 +14,4 @@ logging:
   level:
     com:
       jdum:
-        booking: DEBUG
+        booking: INFO
