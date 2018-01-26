@@ -6,9 +6,11 @@ eureka:
     serviceUrl:
       defaultZone: http://myhost:8761/eureka/
 zuul:
-  ignored-services: *
+#  ignored-services: *
   prefix: /api
   routes:
     search-service:
       serviceId: search-service
       path: /flights/**
+      strip-prefix: false
+
