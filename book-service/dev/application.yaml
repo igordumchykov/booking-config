@@ -15,5 +15,3 @@ logging:
     com:
       jdum:
         booking: INFO
-
-booking.fare.url: http://fares-service/fares
