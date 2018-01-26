@@ -5,18 +5,4 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://myhost:8761/eureka/
-zuul:
-  ignored-services: '*'
-  routes:
-    search-service:
-      serviceId: search-service
-      path: /api/**
-    fares-service:
-      serviceId: fares-service
-      path: /api/**
-    checkin-service:
-      serviceId: checkin-service
-      path: /api/**
-    book-service:
-      serviceId: book-service
-      path: /api/**
+
