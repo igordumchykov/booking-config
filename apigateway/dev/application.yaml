@@ -10,15 +10,12 @@ zuul:
     search-service:
       serviceId: search-service
       path: /api/**
-
-#    fares-service:
-#      serviceId: fares-service
-#      path: /api/**
-#
-#    checkin-service:
-#      serviceId: checkin-service
-#      path: /api/**
-#
-#    book-service:
-#      serviceId: book-service
-#      path: /api/**
+    fares-service:
+      serviceId: fares-service
+      path: /api/**
+    checkin-service:
+      serviceId: checkin-service
+      path: /api/**
+    book-service:
+      serviceId: book-service
+      path: /api/**
