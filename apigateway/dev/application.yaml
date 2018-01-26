@@ -11,3 +11,4 @@ zuul:
     search-service:
       serviceId: search-service
       path: /api/flights/**
+      strip-prefix: false
