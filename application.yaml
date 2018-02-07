@@ -3,6 +3,3 @@ logging:
     com:
       jdum:
         booking: INFO
-spring:
-    profiles:
-      active: dev
