@@ -1,7 +1,7 @@
-#security:
-#  user:
-#    name: guest
-#    password: guest123
+security:
+  user:
+    name: guest
+    password: guest123
 spring:
   application:
     name: webface-service
