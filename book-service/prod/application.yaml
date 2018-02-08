@@ -31,4 +31,4 @@ client:
   fares:
     service: apigateway
     requests:
-      get: fares/get
+      get: /fares/get
