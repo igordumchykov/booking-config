@@ -8,9 +8,9 @@ spring:
     password: guest
 
   datasource:
-    url: jdbc:mysql://localhost:3306/bookdb
-    username: root
-    password:
+    url: jdbc:h2:mem:bookdb
+    username: book
+    password: book
 
   jpa:
     hibernate:
