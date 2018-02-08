@@ -29,6 +29,6 @@ logging:
 
 client:
   fares:
-    service: fares-service
+    service: apigateway
     requests:
-      get: /get
+      get: fares/get
