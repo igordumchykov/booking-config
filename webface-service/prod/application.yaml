@@ -17,18 +17,18 @@ logging:
 
 client:
   booking:
-    service: book-service
+    service: apigateway
     requests:
-      create: /create
-      get: /get/{id}
+      create: /book/create
+      get: /book/get/{id}
   checkin:
-    service: checkin-service
+    service: apigateway
     requests:
-      create: /create
+      create: /checkin/create
   search:
-    service: search-service
+    service: apigateway
     requests:
-      get: /get
+      get: /search/get
 
 # can be used with RestTemplate instead of using Feign client
 #booking:
