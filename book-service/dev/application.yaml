@@ -26,3 +26,9 @@ logging:
     com:
       jdum:
         booking: INFO
+
+client:
+  fares:
+    service: fares-service
+    requests:
+      get: get
