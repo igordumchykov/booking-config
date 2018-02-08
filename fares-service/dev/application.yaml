@@ -9,7 +9,7 @@ spring:
     password: guest
 
   datasource:
-    url: jdbc:h2:mem:checkindb
+    url: jdbc:h2:mem:faresdb
     username: sa
     password:
 
