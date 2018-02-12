@@ -13,9 +13,9 @@ zuul:
       path: /search/**
       serviceId: search-service
 
-    fares-service:
-      path: /fares/**
-      serviceId: fares-service
+    prices-service:
+      path: /prices/**
+      serviceId: prices-service
 
     checkin-service:
       path: /checkin/**

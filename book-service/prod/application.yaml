@@ -28,7 +28,7 @@ logging:
         booking: INFO
 
 client:
-  fares:
+  prices:
     service: apigateway
     requests:
-      get: /fares/get
+      get: /prices/get

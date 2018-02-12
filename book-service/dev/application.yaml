@@ -32,7 +32,7 @@ logging:
         booking: INFO
 
 client:
-  fares:
-    service: fares-service
+  prices:
+    service: prices-service
     requests:
       get: /get

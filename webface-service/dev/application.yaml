@@ -32,7 +32,7 @@ client:
 # can be used with RestTemplate instead of using Feign client
 #booking:
 #  fare:
-#    url: http://fares-service/fares
+#    url: http://prices-service/prices
 #webclient:
 #  checkin:
 #    create:
