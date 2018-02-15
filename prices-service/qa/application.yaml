@@ -12,10 +12,12 @@ spring:
     url: jdbc:mysql://localhost:3306/booking_qa_db
     username: booking_qa_1
     password: ENC(e4cSO2JGHlh6L9Q30BbIO4kAOsK/MBJI)
+    platform: qa
 
   jpa:
     hibernate:
       ddl-auto: update
+    show-sql: true
 
 jasypt:
   encryptor:
