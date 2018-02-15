@@ -11,8 +11,8 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/booking_qa_db
     username: booking_qa_1
-    password: booking_qa_1#1
-#    password: ENC(e4cSO2JGHlh6L9Q30BbIO4kAOsK/MBJI)
+#    password: booking_qa_1#1
+    password: ENC(uSH22SttzHked9mg06gefodFAQRPAvBB)
 
   jpa:
     hibernate:
