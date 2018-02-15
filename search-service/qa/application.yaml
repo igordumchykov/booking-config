@@ -14,9 +14,9 @@ spring:
     password: booking_qa_1#1
 #    password: ENC(e4cSO2JGHlh6L9Q30BbIO4kAOsK/MBJI)
 
-  jpa:
-    hibernate:
-      ddl-auto: update
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
 
 jasypt:
   encryptor:
