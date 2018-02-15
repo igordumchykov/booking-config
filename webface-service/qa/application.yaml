@@ -1,0 +1,47 @@
+security:
+  user:
+    name: guest
+    password: guest123
+spring:
+  application:
+    name: webface-service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://myhost:8761/eureka/
+logging:
+  level:
+    com:
+      jdum:
+        booking: INFO
+
+client:
+  booking:
+    service: book-service
+    requests:
+      create: /create
+      get: /get/{id}
+  checkin:
+    service: checkin-service
+    requests:
+      create: /create
+  search:
+    service: search-service
+    requests:
+      get: /get
+# can be used with RestTemplate instead of using Feign client
+#booking:
+#  fare:
+#    url: http://prices-service/prices
+#webclient:
+#  checkin:
+#    create:
+#      url: http://checkin-service/checkin/create
+#  search:
+#    get:
+#      url: http://search-apigateway/api/search/get
+#  booking:
+#    create:
+#      url: http://book-service/booking/create
+#    get:
+#      url: http://book-service/booking/get/
